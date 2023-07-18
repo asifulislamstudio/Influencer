@@ -58,6 +58,7 @@ nav{
     font-size: 16px;
     font-weight: 600;
     margin: 16px 0px;
+    padding-right: 48px;
  }
 
  .hero-img{
@@ -82,4 +83,78 @@ nav{
      border-top: 1px solid gray;
      margin: 70px 250px;
 
+ }
+
+
+
+
+
+ /*
+ .
+ .
+ .
+ .
+ .
+ .
+ Responsive section start here  
+ .
+ .
+ .
+ .
+
+ */
+
+ @media screen and (max-width:576px) {
+     header{
+         margin: 20px 20px;
+     }
+    nav{
+         flex-direction: column;
+     }
+     .hero{
+         flex-direction: column-reverse;
+         margin: 15px;
+     }
+     .hero-content{
+         text-align: center;
+     }
+     .hero-title{
+         font-size: 1.7rem;
+         line-height: normal;
+         margin: 15px 0px;
+     }
+     .hero-description{
+        font-size:0.8rem ;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-right: 0px;
+     }
+     .hero-img{
+        background-size: 341px;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 30px 35px;
+        margin: 0px auto;
+   
+    }
+
+     .camera{
+         width: 290px;
+     }
+
+     .partner{
+         flex-wrap: wrap;
+         padding: 10px 10px;
+         border-bottom: none;
+        border-top: none;
+        margin: 50px 23px;
+        gap: 10px 8px;
+     }
+     .partner > img{
+         width: 60px;
+     }
+
+
+     /* mobile device Responsive end here  */
  }
