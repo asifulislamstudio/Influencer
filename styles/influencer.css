@@ -71,3 +71,15 @@ nav{
  .camera{
      width: 440px;
  }
+ /* hero section end here  */
+
+ .partner{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 20px;
+     border-bottom: 1px solid gray;
+     border-top: 1px solid gray;
+     margin: 70px 250px;
+
+ }
