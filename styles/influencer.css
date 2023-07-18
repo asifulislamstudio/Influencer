@@ -84,6 +84,72 @@ nav{
      margin: 70px 250px;
 
  }
+ /* 
+ .
+ partner section end here 
+ . 
+ */
+ /* collection section start here  */
+ .checked {
+    color: orange;
+  }
+  .section-header{
+      text-align: center;
+      margin: 100px 0px 50px 0px;
+  }
+  .section-title{
+    color: #3A3A3A;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 250% */
+  }
+
+  .collection{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0px 195px;
+      gap: 30px;
+  }
+
+  .card{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+  }
+  .product-title{
+    color:#18191F;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .price{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 24px;
+    font-weight: 400;
+    
+  }
+  .rating{
+      display: flex;
+      align-items: center;
+  }
+  #p{
+      margin-left: 20px;
+      font-size: 0.8rem;
+      font-weight: 400px;
+  }
+  .product-description{
+    color: #787885;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.252px;
+    margin-top: 10px;
+  }
+
+
 
 
 
@@ -110,6 +176,17 @@ nav{
      }
     nav{
          flex-direction: column;
+     }
+
+     .menu > ul{
+         flex-direction: column;
+     }
+     li{
+         padding: 10px;
+         border: 1px solid black;
+         text-align: center;
+         width: 100%;
+
      }
      .hero{
          flex-direction: column-reverse;
@@ -153,6 +230,11 @@ nav{
      }
      .partner > img{
          width: 60px;
+     }
+
+     .collection{
+         grid-template-columns:1fr;
+         padding: 0px 24px;
      }
 
 
