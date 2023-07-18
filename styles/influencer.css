@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primary-color:#E02C6D;
+}
+/* header section style start here  */
+/* nav section  */
+header{
+    margin: 0px 120px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.menu > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+ li{
+    margin-left: 34px;
+}
