@@ -148,7 +148,37 @@ nav{
     letter-spacing: 0.252px;
     margin-top: 10px;
   }
+  /* colection section style end  here  */
+  .single-product{
+      display: flex;
+      align-items: center;
+      padding: 170px 165px;
+      gap: 0px 96px;
 
+  }
+  .sp-title{
+    color: #0A0826;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 157.895% */
+  }
+
+  .sp-description{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 175% */
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 145px;
+    
+  }
+.btn-sp{
+    border-radius: 5px;
+    
+}
 
 
 
@@ -236,7 +266,21 @@ nav{
          grid-template-columns:1fr;
          padding: 0px 24px;
      }
-
+/* single product section start here  */
+    .single-product{
+        flex-direction: column-reverse;
+        row-gap: 30px;
+        padding: 50px 20px;
+    }
+    .single-product-info{
+        text-align: center;
+    }
+    .sp-description{
+        padding: 16px 20px;
+    }
+    .single-product > img{
+        width: 100%;
+    }
 
      /* mobile device Responsive end here  */
  }
